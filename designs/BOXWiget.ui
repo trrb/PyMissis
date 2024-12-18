@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>371</width>
+    <height>375</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>BOXHISTORY</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-image: url(:/BOX/TRRTranslateBOX.png);
+image: url(:/BOX/TRRTranslateBOX.png);
+border-image: url(:/BOX/TRRTranslateBOX.png);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout"/>
+  </widget>
+ </widget>
+ <resources>
+  <include location="BOX.qrc"/>
+ </resources>
+ <connections/>
+</ui>
